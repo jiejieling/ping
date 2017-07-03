@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <Ping xmlns="http://gyyx.WebService">
+            <Server>115.182.1.188</Server>
+            <Port>80</Port>
+            <Path>/monitor/project/</Path>
+            <Times>10</Times>
+            <Interval>5</Interval>
+        </Ping>
+    </soap:Body>
+</soap:Envelope>
